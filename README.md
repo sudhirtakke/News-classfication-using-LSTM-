@@ -76,6 +76,8 @@ Real or fake news classification with the use of different techniques under NLP
 
 ![image](https://user-images.githubusercontent.com/49444353/127823029-750c619d-db9e-404b-9682-b0868227797a.png)
 
+[Jupyter Notebook][./News_Classification_using_LSTM.ipynb]
+
 
 
 
