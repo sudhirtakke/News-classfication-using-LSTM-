@@ -36,13 +36,13 @@ Real or fake news classification with the use of different techniques under NLP
 > We will keep only 'text' column as input variable for building RNN/LSTM model. 
 > Text column will be pre-processed as:
 
-	 >Removing all numbers, special characters and only keep alphabets, then converting the words into lower case <br>
+    > Removing all numbers, special characters and only keep alphabets, then converting the words into lower case.  
   	
-    >Removing all stopwords like a, an, the, haven’t, couldn’t etc.<br>
+    > Removing all stopwords like a, an, the, haven’t, couldn’t etc.  
   	
-    >One-hot encoding is then applied to convert words into numbers<br>
+    > One-hot encoding is then applied to convert words into numbers  
   	
-    >Further, padding is applied to one-hot encoded data with max length as 500.<br>
+    > Further, padding is applied to one-hot encoded data with max length as 500.  
 
 > After padding, the size of input variable becomes 44898, 500
 > From this data, only 30K rows will be used for training, 10K for validation and rest to be used for testing purpose 
