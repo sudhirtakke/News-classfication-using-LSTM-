@@ -31,7 +31,7 @@ Real or fake news classification with the use of different techniques under NLP
 > After label encoding, 'fake' and 'true' labels are converted to '0' and '1' values respectively.
 
 
-## Data pre-processing 
+## Data pre-processing:
 
 > We will keep only 'text' column as input variable for building RNN/LSTM model. 
 > Text column will be pre-processed as:
@@ -48,7 +48,7 @@ Real or fake news classification with the use of different techniques under NLP
 > From this data, only 30K rows will be used for training, 10K for validation and rest to be used for testing purpose 
 
 
-## Model Architecture
+## Model Architecture:
 
 > We will use sequential model and train embedding layer through model training. Embedding size will be 50 and it will be first layer of Sequential model. So dimension of embedding layer – 10000, 50, 500 (10000 being vocab size or max number, 500 being timestep size) <br> 
 
